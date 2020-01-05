@@ -1,0 +1,127 @@
+\documentclass{knitting_pattern}
+\usepackage[utf8]{inputenc}
+
+
+%----------------------------------------------------------------------------------------
+%	Information: Information for the title and footer
+%----------------------------------------------------------------------------------------
+\patternname{Name of the Pattern}
+
+\DesignerName{Designer Name}
+\DesignerWebsite{Ravelry.com}
+\DesignerEmail{testing\@testing.com}
+\DesignerTwitter{Twitter Handle}
+
+
+%----------------------------------------------------------------------------------------
+%	Start the document
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	Several photo options: Place them where you would like them to show up.
+%----------------------------------------------------------------------------------------
+\ThreePhotoPanelNoBox{Hat_3.jpg}{Hat_1.jpg}{Hat_2.jpg}
+
+\TwoPhotoPanelNoBox{Hat_3.jpg}{Hat_2.jpg}
+
+%----------------------------------------------------------------------------------------
+%	Several Mixed Text and Photo options: Place them where you would like them to show up.
+%----------------------------------------------------------------------------------------
+
+%% Several options for the copy about the pattern. Place the boxes where you would like them to show up.
+
+\PatternAboutLeftPhotoOneBox{Hat_1.jpg}{This is an option that allows you to have a box of text on the right hand side.}
+
+\PatternAboutRightPhotoTwoBoxes{Hat_1.jpg}{This is an option that allows you to have a box of text on the left hand side.}
+
+%----------------------------------------------------------------------------------------
+%	Several Text Box Options: Place them where you would like them to show up.
+%----------------------------------------------------------------------------------------
+
+\OneColumnBoxNoTitle{This is an option that allows you to have a full sheet sized box of the about text. I like to use it for the pattern about header at the top}
+
+\OneColumnBox{Yarn}{1 skein of [This yarn] (x yds/x m per 3.5oz/100g), or similar yarn.}
+
+\OneColumnBox{Size Info}{It fits heads with circumferences between x cm to x cm (x inches to x inches}
+
+\OneColumnBox{Gauge}{Unstretched Gauge: x sts/x rounds (Stretched Gauge\: x sts/x rounds) \\ 10 cm/4 inches square in pattern stitch}
+
+\TwoColumnBox{Needles}{
+\begin{itemize}[noitemsep, leftmargin=0pt]
+    \item 3.5 mm (US 4) 16 inch (40 cm) circular needle
+    \item 3.5 mm (US 4) DPNs for the crown
+\end{itemize}
+}{Notions}{
+\begin{itemize}[noitemsep, leftmargin=0pt]
+	\item Cable needle
+	\item Stitch marker
+	\item Darning needle
+\end{itemize}}
+
+\Instructions{Place the instructions here. Write them all up nicely and clearly so that your tech editor likes it.}
+
+%----------------------------------------------------------------------------------------
+%	Charts + Written Instructions: add the chart image file, and instructions
+%----------------------------------------------------------------------------------------
+
+%% There are some standard changes that my tech editor wants, so I'm adding notes here.
+    %% No capital to start the line
+    %% No period at the end of the line
+    %% Manually have to add the line breaks
+    %% Repeated rows should be reduced if possible
+    %% Rnd(s) vs row(s)
+
+\Chart{Sample_Chart.jpg}{
+Worked as 10 stitch repeats.\\
+Rnds 1 -3: K2, p2, k4, p2
+Round 4: K2, p2, 2/2 LC, p2.
+}
+
+%----------------------------------------------------------------------------------------
+%	Abbreviations: Pick the terms to list, they will list in the order defined in the glossary
+%----------------------------------------------------------------------------------------
+
+%% This is the list from the knitting_glossary file - if you add there, please add here.
+
+% Simple Stitches
+\glsadd{P}
+\glsadd{K}
+
+% Increases
+\glsadd{YO}
+\glsadd{M1Loop}
+\glsadd{M1L}
+\glsadd{M1R}
+
+% Decreases
+\glsadd{K2tog}
+\glsadd{SSK}
+\glsadd{P2tog}
+\glsadd{SSP}
+
+%Cables
+\glsadd{2/2LC}
+\glsadd{2/2RC}
+
+\glsadd{2/1LC}
+\glsadd{2/1RC}
+
+\glsadd{1/2LC}
+\glsadd{1/2RC}
+
+\glsadd{1/1LC}
+\glsadd{1/1RC}
+
+% Slipped Stitches
+\glsadd{S1}
+
+%----------------------------------------------------------------------------------------
+%	Print all the Abbreviations: You can comment this out if you don't want it to appear
+%----------------------------------------------------------------------------------------
+\Abbreviations{}
+
+%----------------------------------------------------------------------------------------
+%	End the document
+%----------------------------------------------------------------------------------------
+\end{document}
